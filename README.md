@@ -1,5 +1,3 @@
-Claro! Aqui está um exemplo de README.md que você pode utilizar para fornecer instruções aos candidatos sobre o desafio de consumir a API do GitHub:
-
 # Desafio de Consumo da API do GitHub
 
 Neste desafio, você deverá criar um aplicativo em PHP que consuma a API do GitHub e exiba os repositórios mais populares de um determinado usuário. Siga as instruções abaixo para completar o desafio.
