@@ -24,7 +24,7 @@
 - Utilize o arquivo custom.scss localizado em /public/scss para editar as cores padrões do bootstrap;
 - Para testes de PWA o projeto utiliza HTTPS. Gere seu server.crt e server.key da sua maquina local, instale e salve na pasta /ssl;
 - O recurso PWA armazena em cache as paginas vizitadas da aplicação podendo ser acessada off-line;
-- FontAwesome está na versão free;
+- FontAwesome está na versão free [https://fontawesome.com/icons?d=gallery];
 - A função cache em /app/helpers/constants.php adiciona a data do arquivo para forçar atualização em caso de alterações;
 - A pasta vendor do composer não está no gitgnore (fora do padrão) para facilitar a manutenção da hospedagem aproveitando o deploy automatico por webhook do git. 
 

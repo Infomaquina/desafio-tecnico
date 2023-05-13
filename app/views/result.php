@@ -6,13 +6,13 @@
     <?php require_once('layout/header.php') ?>
 
     <!-- INPUT PARA BUSCA DE USUARIO -->
-    <form method="post">
+    <form method="post" novalidate>
       <div class="my-3 position-relative">
         <div class="input-group">
           <div class="form-floating">
-            <input type="text" class="form-control" name="nome" id="nome" aria-describedby="helpId" placeholder="x" required>
+            <input type="text" class="form-control" name="nome" id="nome" placeholder="x" required>
             <label for="nome" class="form-label text-secondary"><i class="fa-solid fa-circle-user me-2"></i>GitHub Username</label>
-            <div class="invalid-tooltip animate__animated animate__bounceIn text-white" onclick="$('#nome').val('').removeClass('is-invalid')">
+            <div class="invalid-tooltip animate__animated animate__bounceIn text-white" onclick="$('#nome').val('').removeClass('is-invalid')" title="Clique para resetar">
                 <i class="fa-solid fa-bell fa-shake me-2"></i>Ops! Usuário inválido.
             </div>
           </div>
