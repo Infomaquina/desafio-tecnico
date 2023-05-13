@@ -1,0 +1,21 @@
+{
+    "name": "brandev/brf",
+    "autoload": {
+        "files": [
+            "app/helpers/constants.php",
+            "app/router/Rota.php"
+        ],
+        "psr-4": {
+            "app\\": "app"
+        }
+    },
+    "authors": [
+        {
+            "name": "Brandeveloper",
+            "email": "brandeveloper@outlook.com"
+        }
+    ],
+    "require": {
+        "league/plates": "^3.5"
+    }
+}

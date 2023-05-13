@@ -1,0 +1,14 @@
+//VARIAVEIS PADRÃO
+
+$primary:   #6e3eb7;
+$success:   #529d23;
+$danger:    #fb711b;
+$secondary: #808080;
+$warning:   #203864;
+$info:      #3c444d;
+$light:     #b4b4b4;
+
+@import "node_modules/bootstrap/scss/_functions"; 
+@import "node_modules/bootstrap/scss/_variables";
+@import "node_modules/bootstrap/scss/bootstrap"
+
