@@ -56,8 +56,7 @@ $(()=>{
       data: {user: user},
       dataType: "json",
       success: (d)=>{
-        sonora('ok') 
-        console.log('erro'+d);
+        sonora('ok')
         
         //SE NÃO HOUVER RESULTADOS
         if(d.length == 0){
