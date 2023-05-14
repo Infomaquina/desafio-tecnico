@@ -25,13 +25,13 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="white"/>
 <meta name="apple-mobile-web-app-title" content="<?=TITLE?>"/>
 <meta name="apple-mobile-web-app-capable" content="yes" />
-<link rel="apple-touch-icon" href="https://<?=SERVIDOR.IMG?>brf.png"/>
+<link rel="apple-touch-icon" href="https://<?=SERVIDOR.IMG?>pwa/192.png"/>
 <link rel="apple-touch-icon image_src" href="./<?=IMG?>logo.jpg" />
 <!-- ================================================================= -->
 
 <!-- Tile for Win8 =================================================== -->
 <meta name="msapplication-TileColor" content="#5a3007"/>
-<meta name="msapplication-TileImage" content="https://<?=SERVIDOR.IMG?>brf.png"/>
+<meta name="msapplication-TileImage" content="https://<?=SERVIDOR.IMG?>pwa/192.png"/>
 <!-- ================================================================= -->
 
 <!-- OG FACEBOOK ===================================================== -->
@@ -40,7 +40,7 @@
 <meta property="og:title" content="<?=TITLE ?>"/>
 <meta property="og:site_name" content="<?=TITLE ?>"/>
 <meta property="og:description" content="<?=DESCRIPTION?>"/>
-<meta property="og:image" content="https://<?=SERVIDOR.IMG?>brf.png"/>
+<meta property="og:image" content="https://<?=SERVIDOR.IMG?>pwa/192.png"/>
 <meta property="og:image:type" content="image/jpg"/>
 <meta property="og:image:width" content="192"/>
 <meta property="og:image:height" content="192"/>
@@ -51,7 +51,7 @@
 <meta name="twitter:url" content="https://<?=SERVIDOR?>"/>
 <meta name="twitter:title" content="<?=TITLE ?>"/>
 <meta name="twitter:description" content="<?=DESCRIPTION?>"/>
-<meta name="twitter:image" content="https://<?=SERVIDOR.IMG?>brf.png"/>
+<meta name="twitter:image" content="https://<?=SERVIDOR.IMG?>pwa/192.png"/>
 <!-- ================================================================= -->
 
 <!-- CSS ============================================================= -->
