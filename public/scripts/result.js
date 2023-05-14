@@ -20,6 +20,18 @@ $(()=>{
       return
     }
 
+    //SE OFF-LINE
+    if(navigator.onLine == false){
+      sonora('error')    
+      Swal.fire({
+        title: 'Você está Offline!',
+        text: "Verifique sua conexão",
+        backdrop: "rgba(0,0,0,0.8)",
+        timer: 2000,
+      })
+      return
+    }
+
     //LOADING
     Swal.fire({
       title: 'Buscando...',
