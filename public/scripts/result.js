@@ -57,7 +57,8 @@ $(()=>{
       dataType: "json",
       success: (d)=>{
         sonora('ok') 
-
+        console.log('erro'+d);
+        
         //SE NÃO HOUVER RESULTADOS
         if(d.length == 0){
           sonora('error')
@@ -107,6 +108,11 @@ $(()=>{
           </div>
           `)
         })
+      },
+      error: ()=>{
+        sonora('error')
+        $("#nome").addClass("is-invalid")
+        return        
       }
     })
 
